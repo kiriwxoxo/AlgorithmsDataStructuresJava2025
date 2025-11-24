@@ -1,0 +1,38 @@
+Виконати наступне - захист вибірковий(тобто ви надсилаєте - але я можу сказати- що потрібно голосом захистити)
+
+/**
+* 0. Write a Java class with main method consist of:
+* 1. create a new array list, add some colors (string) and print out the collection
+* 2. iterate through all elements in a array list
+* 3. insert an element into the array list at the first position
+* 4. retrieve an element (at a specified index) from a given array list
+* 5. update specific array element by given element
+* 6. remove the third element from a array list
+* 7. search an element in a array list
+* 8. sort a given array list (https://www.w3schools.com/java/java_sort_list.asp)
+* 9. copy one array list into another (https://www.w3schools.com/java/ref_arraylist_clone.asp)
+* 10. reverse elements in a array list( Метод reverse(   ) класу Collections ) 
+* 11. compare two array lists (equals)
+* 12. empty an array list (isEmpty)
+* 13. test an array list is empty or not
+* 14. increase the size of an array list
+* 15. trim the capacity of an array list the current list size (trimToSize)
+*/
+Напишіть Java-клас з методом main, який містить
+1. створення нового списку масиву (ArrayList), додавання кількох кольорів (рядків) і виведення колекції
+2. ітерація по всіх елементах списку масиву
+3. вставка елемента у список масиву на першу позицію
+4. отримання елемента (за заданим індексом) зі списку масиву
+5. оновлення конкретного елемента списку заданим елементом
+6. видалення третього елемента зі списку масиву
+7. пошук елемента у списку масиву
+8. сортування заданого списку масиву (https://www.w3schools.com/java/java_sort_list.asp)
+9. копіювання одного списку масиву в інший (
+
+https://www.w3schools.com/java/ref_arraylist_clone.asp  )
+10. реверсування елементів у списку масиву (метод reverse() класу Collections)
+11. порівняння двох списків масиву (метод equals)
+12. очищення списку масиву (метод isEmpty)
+13. перевірка, чи список масиву є порожнім
+14. збільшення розміру списку масиву
+15. обрізання місткості списку масиву до поточного розміру (метод trimToSize)
