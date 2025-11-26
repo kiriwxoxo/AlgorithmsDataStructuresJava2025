@@ -24,11 +24,11 @@ public class Main {
         inventory.findProduct("Z999"); // Неіснуючий товар
         inventory.findProduct("B200"); // Існуючий товар
 
-        //удаляем 
+        //удаляем
         System.out.println("\n--- Видалення товару B200 (Мишка) ---");
         inventory.removeProduct("B200");
 
-   // вывожим
+        // вывожим
         System.out.println("\n--- Склад після видалення ---");
         inventory.printAllProducts();
     }
