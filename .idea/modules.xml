@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java ArrayList/Java ArrayList.iml" filepath="$PROJECT_DIR$/Java ArrayList/Java ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HashMap/scr/scr.iml" filepath="$PROJECT_DIR$/HashMap/scr/scr.iml" />
     </modules>
   </component>
 </project>
