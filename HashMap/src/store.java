@@ -1,19 +1,15 @@
 import java.util.HashMap;
+import java.util.Map;
 
-class Inventory {
-    // кдюч код значение товар
-    private HashMap<String, Product> products;
+public class store {
+    // интерфейс мап для гибкости
+    private final Map<String, product> products = new HashMap<>();
 
-    public Inventory() {
-        products = new HashMap<>();
+    public void addProduct(product product) {
+        // в record метод получ поля наз как само поле
+        products.put(product.code(), product);
     }
 
-    // добавить товар
-    public void addProduct(Product product) {
-        products.put(product.getProductCode(), product);
-    }
-
-    // убрать товар
     public void removeProduct(String productCode) {
         if (products.containsKey(productCode)) {
             products.remove(productCode);
@@ -23,9 +19,8 @@ class Inventory {
         }
     }
 
-    // поиск товара по кодум
     public void findProduct(String productCode) {
-        Product product = products.get(productCode);
+        product product = products.get(productCode);
         if (product == null) {
             System.out.println("Товару з таким кодом немає: " + productCode);
         } else {
@@ -33,13 +28,50 @@ class Inventory {
         }
     }
 
-    // Ввыявод всех товаров
     public void printAllProducts() {
         if (products.isEmpty()) {
             System.out.println("Склад порожній.");
         } else {
-            for (Product p : products.values()) {
+            for (product p : products.values()) {
                 System.out.println(p);
+            }
+        }
+    }
+
+    public static class Inventory {
+        // интерфейс мап для гибкости
+        private final Map<String, product> products = new HashMap<>();
+
+        public void addProduct(product product) {
+            // в record метод получ поля наз как само поле
+            products.put(product.code(), product);
+        }
+
+        public void removeProduct(String productCode) {
+            if (products.containsKey(productCode)) {
+                products.remove(productCode);
+                System.out.println("Товар з кодом " + productCode + " видалено.");
+            } else {
+                System.out.println("Не вдалося видалити: товару з кодом " + productCode + " немає.");
+            }
+        }
+
+        public void findProduct(String productCode) {
+            product product = products.get(productCode);
+            if (product == null) {
+                System.out.println("Товару з таким кодом немає: " + productCode);
+            } else {
+                System.out.println("Знайдено: " + product);
+            }
+        }
+
+        public void printAllProducts() {
+            if (products.isEmpty()) {
+                System.out.println("Склад порожній.");
+            } else {
+                for (product p : products.values()) {
+                    System.out.println(p);
+                }
             }
         }
     }
