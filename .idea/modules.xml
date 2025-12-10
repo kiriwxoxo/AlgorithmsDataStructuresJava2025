@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Eolymp/Eolymp.iml" filepath="$PROJECT_DIR$/Eolymp/Eolymp.iml" />
       <module fileurl="file://$PROJECT_DIR$/HashMap/HashMap.iml" filepath="$PROJECT_DIR$/HashMap/HashMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java ArrayList/Java ArrayList.iml" filepath="$PROJECT_DIR$/Java ArrayList/Java ArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eolymp.iml" filepath="$PROJECT_DIR$/eolymp.iml" />
     </modules>
   </component>
 </project>
