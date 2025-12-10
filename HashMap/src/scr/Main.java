@@ -1,11 +1,14 @@
+import scr.Inventory;
+import scr.Product;
+
 public class Main {
     public static void main(String[] args) {
-        var inventory = new store.Inventory();
+        var inventory = new Inventory();
 
-        var p1 = new product("A100", "Ноутбук", 10);
-        var p2 = new product("B200", "Мишка", 50);
-        var p3 = new product("C300", "Клавіатура", 20);
-        var p4 = new product("D400", "Монітор", 15);
+        var p1 = new Product("A100", "Ноутбук", 10);
+        var p2 = new Product("B200", "Мишка", 50);
+        var p3 = new Product("C300", "Клавіатура", 20);
+        var p4 = new Product("D400", "Монітор", 15);
 
         inventory.addProduct(p1);
         inventory.addProduct(p2);
