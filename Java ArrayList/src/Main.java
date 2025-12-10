@@ -10,7 +10,7 @@ public class Main {
         color.add("Violet");
         color.add("Lavender");
 
-        // 2. Ітерація (використовуємо посилання на метод - це стиль Java 8+)
+        // 2. Ітерація
         System.out.println("Масив:");
         color.forEach(System.out::println);
 
