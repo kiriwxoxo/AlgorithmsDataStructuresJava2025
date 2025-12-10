@@ -1,3 +1,5 @@
+package scr;
+
 class Solution {
     //принимает2 начала списков и возвращает началосписка
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {

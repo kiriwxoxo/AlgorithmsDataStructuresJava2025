@@ -1,8 +1,10 @@
-public class ListNode { 
-    int val;            
-    ListNode next;      
+package scr;
 
-    ListNode() {}       
+public class ListNode {
+    int val;
+    ListNode next;
+
+    ListNode() {}
 
     ListNode(int val) { this.val = val; }
 
